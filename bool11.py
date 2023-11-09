@@ -7,4 +7,5 @@ def main(number):
         bool
     """
     # Write your code here
-    return 
+    return number>8 and number%2==0
+print(main(0))

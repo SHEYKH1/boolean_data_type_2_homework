@@ -7,4 +7,5 @@ def main(b):
         bool
     """
     # Write your code here
-    return 
+    return (b%3==0 and b%5!=0) or b%3!=0 and b%3==0
+print (main(0))
